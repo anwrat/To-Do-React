@@ -15,7 +15,7 @@ export function TodoForm(props){
         <form onSubmit={handleSubmit}className='new-item-form'>
             <div className='form-row'>
             <label className='toplabel' htmlFor='item'>Item</label>
-            <input value={newItem} onChange={e=>setNewItem(e.target.value)}type="text" id="item"></input>
+            <input placeholder='Write here' value={newItem} onChange={e=>setNewItem(e.target.value)}type="text" id="item"></input>
             </div>
             <button className='btn'>Add</button>
         </form>

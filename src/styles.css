@@ -6,7 +6,6 @@
   body {
     background: #333;
     color: hsl(200, 100%, 90%);
-    max-width: 400px;
     padding: 1rem;
     margin: 0 auto;
   }
@@ -31,11 +30,11 @@
   
   .btn {
     margin: auto;
-    width: 50%;
-    background: hsl(200, 100%, 50%, 0.1);
-    border: 1px solid hsl(200, 100%, 50%);
-    color: hsl(200, 100%, 50%);
-    padding: 0.25em 0.5em;
+    width: 10%;
+    background: hsla(125, 91%, 44%, 0.934);
+    border: 1px solid hsl(124, 33%, 33%);
+    color: hsl(0,0%,100%);
+    padding: 0.25em 0.25em;
     border-radius: 0.25em;
     cursor: pointer;
     outline: none;
@@ -47,9 +46,9 @@
   }
   
   .btn.btn-danger {
-    background: hsl(0, 100%, 40%, 0.1);
-    border: 1px solid hsl(0, 100%, 40%);
-    color: hsl(0, 100%, 40%);
+    background: hsl(0, 100%, 40%);
+    border: 1px solid hsl(0, 79%, 15%);
+    color: hsl(0, 0%, 100%);
   }
   
   .btn.btn-danger:hover,
@@ -58,12 +57,12 @@
   }
   
   .new-item-form input {
+    margin: auto;
     outline: none;
     border: 1px solid hsl(200, 100%, 40%);
-    background: hsl(200, 100%, 30%);
     border-radius: 0.25em;
     padding: 0.25em 0.5em;
-    color: hsl(200, 100%, 90%);
+    width: 30%;
   }
   
   .new-item-form input:focus {
@@ -71,9 +70,9 @@
   }
   
   .header {
-    font-size: 2rem;
+    font-size: 1.2rem;
     margin-top: 5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 2rem;
   }
   
   .list {
@@ -145,4 +144,13 @@
   
   .list li:has(input:checked) label:hover::before {
     background: hsl(200, 100%, 30%);
+  }
+
+  footer{
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 0%);
+    position: fixed;
+    bottom:0;
+    width: 100%;
   }
