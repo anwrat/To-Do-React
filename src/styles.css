@@ -25,9 +25,13 @@
 
   .toplabel{
     font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
   }
   
   .btn {
+    margin: auto;
+    width: 50%;
     background: hsl(200, 100%, 50%, 0.1);
     border: 1px solid hsl(200, 100%, 50%);
     color: hsl(200, 100%, 50%);
@@ -68,7 +72,7 @@
   
   .header {
     font-size: 2rem;
-    margin-top: 1.5rem;
+    margin-top: 5rem;
     margin-bottom: 0.5rem;
   }
   
